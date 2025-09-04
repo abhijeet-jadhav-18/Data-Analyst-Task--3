@@ -31,3 +31,25 @@ handles dynamic search queries.
 4. Designed to be scalable for other e-commerce platforms.
 
 
+## some steps to run & install libraries:
+
+**Step 1: Install required libraries**
+Open your terminal/Anaconda prompt and install:
+
+pip install selenium pandas openpyxl
+
+- You need Chrome browser and ChromeDriver.
+- 
+**Step 2: Selenium Script (Flipkart + Amazon)**
+Save this as selenium_scraper.py
+
+**Step 3: Run it**
+python selenium_scraper.py
+
+**Enter: product_Name ( e.g.., Samsung S24)
+
+# It will:
+
+- Open Flipkart & Amazon in a headless Chrome browser
+- Collect product name, price, rating
+- Save results to samsung_s24_products.xlsx
