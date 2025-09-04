@@ -48,8 +48,18 @@ python selenium_scraper.py
 
 **Enter: product_Name ( e.g.., Samsung S24)
 
-# It will:
+### It will:
 
 - Open Flipkart & Amazon in a headless Chrome browser
 - Collect product name, price, rating
 - Save results to samsung_s24_products.xlsx
+
+
+# Example Output (Excel):
+
+| Website  | Product                                      | Price       | Rating |
+|----------|----------------------------------------------|------------|--------|
+| Flipkart | SAMSUNG Galaxy S23 5G (Phantom Black, 128GB) | ₹52,999    | 4.4    |
+| Flipkart | SAMSUNG Galaxy S23 Ultra 5G (Green, 256GB)   | ₹1,24,999  | 4.6    |
+| Amazon   | Samsung Galaxy S23 5G (Green, 128GB)         | ₹52,999    | 4.3    |
+| Amazon   | Samsung Galaxy S23 Ultra 5G (Phantom Black)  | ₹1,24,999  | 4.6    |
